@@ -21,7 +21,7 @@ export const Navbar = () => {
                     <a>Blog.Blackskull</a>
                 </Block>
                 <Block>
-                    <img src={logo} alt="logo"/>
+                    <img src={logo} alt="logo" id="logo"/>
                     <li>Categorias</li>
                     <li>Vestuário</li>
                     <li>Objetivos</li>

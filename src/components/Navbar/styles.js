@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const Nav = styled.div`
     height: max-content;
-    margin: -12px auto;
     background-color: var(--dark1);
     
     border-bottom: solid var(--gray1) 1px;
@@ -25,8 +24,7 @@ export const Block = styled.div`
     li{
         cursor: pointer;
     }
-    a, li:hover{
+    a:hover, li:hover{
         color: var(--orange2);
     }
 `
-

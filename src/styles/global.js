@@ -54,12 +54,16 @@ export const GlobalStyle = createGlobalStyle`
 `;
 
 export const Container = styled.div`
-   width: 100%;
-    max-width: 1780px;
-    margin: 0 auto;
-    padding: .8rem;
+  display: flex;
+  flex-direction: column;
 
-    img{
-        height: 80px;
-    }
+  width: 100%;
+  max-width: ${props => props.width ? props.width : "1780px"};
+
+  margin: 0 auto;
+  padding: .8rem;
+
+  img{
+      height: 80px;
+  }
 `
