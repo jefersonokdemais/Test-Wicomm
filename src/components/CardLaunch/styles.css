@@ -1,0 +1,14 @@
+.react-icons{
+    position: relative;
+    top: -16rem;
+    right: -10rem;
+
+    color: var(--grey1);
+    cursor: pointer;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.react-icons:hover {
+    color: var(--orange1);
+}
