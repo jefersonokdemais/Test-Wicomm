@@ -1,0 +1,55 @@
+li {
+    text-transform: uppercase;
+    color: var(--grey1);
+    list-style: none;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.text{
+    color: var(--grey2);
+    font-family: 'Barlow';
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    cursor: default;
+}
+
+.text .icon{
+    color: var(--orange1);
+    margin: 0 1rem;
+    width: 30px;
+    cursor: default;
+}
+
+img{
+    height: 80px;
+    margin-left: -20px;
+}
+
+.icon{
+    width: 40px;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+
+    
+}
+.icon:hover{
+        color: var(--orange1);
+}
+
+input{
+    color: var(--grey1);
+    background-color: transparent;
+    
+    border: solid var(--dark3) 1px;
+    border-radius: 5px;
+    
+    height: 60px;
+    width: 350px;
+
+    font-size: 1.2rem;
+    padding: 1.5rem;
+}
