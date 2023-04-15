@@ -55,7 +55,9 @@ export const GlobalStyle = createGlobalStyle`
 
 export const Container = styled.div`
   display: flex;
-  flex-direction: column;
+  flex-direction: ${props => props.direction ? props.direction : "column"};
+
+  gap: ${props=> props.gap ? "2.2rem" : "0"};
 
   width: 100%;
   max-width: ${props => props.width ? props.width : "1780px"};

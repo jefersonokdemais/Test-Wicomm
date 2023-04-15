@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Slide = styled.div`
     height: 1000px;
     background-image: url(${props => props.img});
-    background-size: 100vw;
+   /*  background-size: 100vw; */
     background-repeat: no-repeat;
     object-fit: cover;
 `

@@ -1,3 +1,4 @@
+import { Category } from "../components/Category"
 import { Navbar } from "../components/Navbar"
 import { SlideMain } from "../components/SlideMain"
 
@@ -6,6 +7,7 @@ const Wicomm = () => {
         <>  
             <Navbar/>
             <SlideMain/>
+            <Category/>
         </>
     )
 }
