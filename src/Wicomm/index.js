@@ -2,6 +2,7 @@ import { Category } from "../components/Category"
 import { Launch } from "../components/Launch"
 import { Members } from "../components/Members"
 import { Navbar } from "../components/Navbar"
+import { SalesDiscount } from "../components/SalesDiscount"
 import { SlideMain } from "../components/SlideMain"
 
 const Wicomm = () => {
@@ -12,6 +13,7 @@ const Wicomm = () => {
             <Category/>
             <Launch/>
             <Members/>
+            <SalesDiscount/>
         </>
     )
 }
