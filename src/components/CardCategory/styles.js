@@ -10,4 +10,8 @@ export const CardContent = styled.div`
         text-transform: uppercase;
         margin-top: 1.8rem;
     }
+
+    :hover{
+        cursor: pointer;
+    }
 `

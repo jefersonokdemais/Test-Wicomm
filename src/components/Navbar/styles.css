@@ -32,12 +32,19 @@ li {
     height: 40px;
     margin: 0;
     padding: 0;
-    cursor: pointer;
-
-    
+    cursor: pointer;    
 }
 .icon:hover{
-        color: var(--orange1);
+    color: var(--orange1);
+}
+
+.icon-search{
+    width: 40px;
+    height: 40px;
+
+    position: relative;
+    left: -50px;
+    top: 15px;
 }
 
 input{

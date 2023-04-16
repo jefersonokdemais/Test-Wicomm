@@ -30,7 +30,7 @@ export const Navbar = () => {
                     <li>Assinatura</li>
                     <li>
                         <input placeholder="Buscar"/>
-                        <label><BiSearch/></label>
+                        <BiSearch className="icon-search"/>
                     </li>
                     <li><BiUserCircle className="icon"/></li>
                     <li><AiOutlineStar className="icon"/></li>

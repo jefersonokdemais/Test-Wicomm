@@ -9,6 +9,10 @@
     border-radius: 50%;
 }
 
+.card-circle:hover{
+    border: solid var(--orange1) 1px;
+}
+
 
 #img{
     height: 65%;

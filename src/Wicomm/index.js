@@ -1,5 +1,6 @@
 import { Category } from "../components/Category"
 import { Launch } from "../components/Launch"
+import { Members } from "../components/Members"
 import { Navbar } from "../components/Navbar"
 import { SlideMain } from "../components/SlideMain"
 
@@ -10,6 +11,7 @@ const Wicomm = () => {
             <SlideMain/>
             <Category/>
             <Launch/>
+            <Members/>
         </>
     )
 }
