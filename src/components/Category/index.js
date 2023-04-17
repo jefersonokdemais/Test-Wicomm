@@ -6,7 +6,7 @@ import { Container } from "../../styles/global"
 export const Category = () => {
     return(
         <View>
-            <Container direction={"row"} gap>
+            <Container direction={"row"} gap={"2rem"}>
                 <Card title="Proteínas" img={img1} />
                 <Card title="Hipercalóricos" img={img1} />
                 <Card title="Creatina" img={img1} />

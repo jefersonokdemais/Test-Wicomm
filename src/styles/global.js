@@ -57,7 +57,7 @@ export const Container = styled.div`
   display: flex;
   flex-direction: ${props => props.direction ? props.direction : "column"};
 
-  gap: ${props=> props.gap ? "2.2rem" : "0"};
+  gap: ${props=> props.gap ? props.gap : "0"};
 
   width: 100%;
   max-width: ${props => props.width ? props.width : "1780px"};

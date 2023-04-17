@@ -13,7 +13,7 @@ export const CardContent = styled.div`
 
     border: solid var(--dark3) 2px;
 
-    margin: 2rem 0 10rem;
+    margin: 2rem 0;
 
     .img{
         object-fit: cover;
