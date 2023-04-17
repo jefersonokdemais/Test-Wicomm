@@ -5,6 +5,7 @@ import { Navbar } from "../components/Navbar"
 import { Notices } from "../components/Notices"
 import { Objectives } from "../components/Objectives"
 import { SalesDiscount } from "../components/SalesDiscount"
+import { Security } from "../components/Security"
 import { SlideMain } from "../components/SlideMain"
 
 const Wicomm = () => {
@@ -18,6 +19,7 @@ const Wicomm = () => {
             <SalesDiscount/>
             <Notices/>
             <Objectives/>
+            <Security/>
         </>
     )
 }
