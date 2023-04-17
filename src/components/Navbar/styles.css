@@ -43,12 +43,12 @@ li {
     height: 40px;
 
     position: relative;
-    left: -50px;
+    left: -30px;
     top: 15px;
 }
 
 input{
-    color: var(--grey1);
+    /* color: var(--grey1);
     background-color: transparent;
     
     border: solid var(--dark3) 1px;
@@ -58,5 +58,8 @@ input{
     width: 350px;
 
     font-size: 1.2rem;
-    padding: 1.5rem;
+    padding: 1.5rem; */
+
+    position: relative;
+    left: 20px;
 }

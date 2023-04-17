@@ -4,7 +4,7 @@ export const View = styled.div`
     margin-top: 3rem; 
     width: 100%;
 
-    margin: 0 0 150px 0;
+    margin: 0 0 70px 0;
 
     display: flex;
     align-items: center;

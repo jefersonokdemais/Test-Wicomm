@@ -10,8 +10,25 @@ export const GlobalStyle = createGlobalStyle`
     outline: 0;
   }
   
-  body, input, button {
+  body, button {
     font-family: 'Inter', sans-serif;
+  }
+  
+  input{
+
+    font-family: 'Barlow', sans-serif;
+    
+    color: var(--grey1);
+    background-color: transparent;
+    
+    border: solid var(--dark3) 1px;
+    border-radius: 5px;
+    
+    height: 60px;
+    width: 350px;
+
+    font-size: 1.2rem;
+    padding: 1.5rem;
   }
 
   h1, h2, h3, h4, h5{
