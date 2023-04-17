@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const View = styled.div`
     background-image: linear-gradient(var(--dark3), var(--black));
-    height: 830px;
+    height: 680px;
 `
 
 export const H2 = styled.h2`

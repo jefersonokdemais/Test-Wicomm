@@ -12,7 +12,7 @@ export const Navbar = () => {
     return (
         <Nav>
             <Container>
-                <Block buttom={"1.2rem"}>
+                <Block>
                     <a>Fale conosco</a>
                     <div className="text"> 
                         <TbTruck className="icon"/> 
@@ -30,8 +30,8 @@ export const Navbar = () => {
                     <li>Assinatura</li>
                     <li>
                         <input placeholder="Buscar"/>
-                        <BiSearch className="icon-search"/>
                     </li>
+                        <li><BiSearch className="icon-search"/></li>
                     <li><BiUserCircle className="icon"/></li>
                     <li><AiOutlineStar className="icon"/></li>
                     <li>

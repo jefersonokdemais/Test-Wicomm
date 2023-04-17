@@ -8,7 +8,7 @@ import { CardNoticies } from "../CardNoticies"
 export const Notices = () =>{
     return(
         <View>
-            <Container width="1780px">
+            <Container width="1200px">
                 <H2>Confira <span>o nosso Blog</span></H2>
                 <Container direction={"row"} gap={".8rem"}>
                     <CardNoticies

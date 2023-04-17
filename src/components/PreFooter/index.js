@@ -8,6 +8,7 @@ import { AiFillTwitterCircle } from "react-icons/ai"
 import {Container} from "../../styles/global"
 import icon1 from "../../assets/Icons-Cards1.png"
 import icon2 from "../../assets/Icons-Cards2.png"
+import "./styles.css"
 
 export const PreFooter = () =>{ 
     return(
@@ -71,8 +72,8 @@ export const PreFooter = () =>{
                 <ColumnMarketingNoticies>
                     <h3>Fique por <span>dentro</span></h3>
                     <span>Inscreva-se e seja o primeiro a saber sobre muitas as novidades, promoções e muito mais!</span>
-                    <input placeholder="Digite seu nome"/>
-                    <input placeholder="Digite seu email" />
+                    <input placeholder="Digite seu nome" className="pre-input"/>
+                    <input placeholder="Digite seu email" className="pre-input"/>
                     <Buttom>Enviar</Buttom>
                 </ColumnMarketingNoticies>
             </Container>

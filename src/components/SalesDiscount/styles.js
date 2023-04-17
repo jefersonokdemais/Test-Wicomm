@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const View = styled.div`
     width: 100%;
-    margin-top: 10rem;
+    margin-top: 5rem;
 
     gap: 2rem;
     

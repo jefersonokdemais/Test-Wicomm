@@ -6,7 +6,7 @@ import "./styles.css"
 
 export const Security = () =>{
     return(
-        <Container width="1600px">
+        <Container width="1200px">
             <View>
             <Block>
                 <Description>

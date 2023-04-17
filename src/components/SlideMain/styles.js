@@ -1,15 +1,16 @@
 import styled from "styled-components";
 
 export const Slide = styled.div`
-    height: 1000px;
+    height: 85vh;
     background-image: url(${props => props.img});
-   /*  background-size: 100vw; */
+    background-size: 100vw;
     background-repeat: no-repeat;
     object-fit: cover;
+    /* background-size: 100% 42vw; */
 `
 
 export const H1 = styled.h1`
-    margin-top: 12.5rem;
+    margin-top: 7rem;
 
     font-size: 5.3rem;
     font-style: italic;

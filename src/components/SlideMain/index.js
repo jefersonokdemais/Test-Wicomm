@@ -5,7 +5,7 @@ import { Button, H1, P, Slide } from "./styles"
 export const SlideMain = () =>{
     return(
         <Slide img={img1}>
-            <Container width={"1460px"}>
+            <Container width={"1200px"}>
                 <H1>Ajudando você a ter <span>mais performance</span></H1>
                 <P>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna</P>
                 <Button>Confira</Button>

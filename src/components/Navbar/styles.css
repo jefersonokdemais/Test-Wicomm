@@ -3,7 +3,7 @@ li {
     color: var(--grey1);
     list-style: none;
     font-weight: 700;
-    font-size: 1.2rem;
+    font-size: .8rem;
 }
 
 .text{
@@ -23,13 +23,13 @@ li {
 }
 
 #logo{
-    height: 80px;
+    height: 4vw;
     margin-left: -20px;
 }
 
 .icon{
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     margin: 0;
     padding: 0;
     cursor: pointer;    
@@ -39,27 +39,22 @@ li {
 }
 
 .icon-search{
-    width: 40px;
-    height: 40px;
+    width: 20px;
+    height: 20px;
 
     position: relative;
-    left: -30px;
-    top: 15px;
+    left: -20px;
+    top: 2px;
 }
 
 input{
-    /* color: var(--grey1);
-    background-color: transparent;
-    
-    border: solid var(--dark3) 1px;
-    border-radius: 5px;
-    
-    height: 60px;
-    width: 350px;
-
-    font-size: 1.2rem;
-    padding: 1.5rem; */
-
     position: relative;
     left: 20px;
+    width: 20px;
+        
+    height: 15px;
+    width: 210px;
+
+    font-size: 1rem;
+    padding: 1rem .4rem;
 }

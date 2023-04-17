@@ -7,7 +7,7 @@ import img3 from "../../assets/members-img3.png"
 export const Members = () =>{
     return (
         <View>
-            <Container width="1300px">
+            <Container width="1200px">
                 <H2>Conheça a tropa <span>Black Skull</span></H2>
                 <Container direction={"row"} gap={".8rem"}>
                     <img src={img1} alt="foto de atleta de musculação"/>

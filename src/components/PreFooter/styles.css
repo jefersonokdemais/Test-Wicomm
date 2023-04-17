@@ -1,0 +1,15 @@
+.pre-input{
+    font-family: 'Barlow', sans-serif;
+    
+    color: var(--grey1);
+    background-color: transparent;
+    
+    border: solid var(--dark3) 1px;
+    border-radius: 5px;
+    
+    height: 60px;
+    width: 350px;
+    
+    font-size: 1.2rem;
+    padding: 1.5rem;
+}

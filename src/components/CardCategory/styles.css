@@ -2,8 +2,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 270px;
-    height: 270px;
+    width: 170px;
+    height: 170px;
     
     background-color: var(--background);
     border-radius: 50%;
@@ -15,5 +15,5 @@
 
 
 #img{
-    height: 65%;
+    height: 55%;
 }

@@ -17,7 +17,7 @@ export const Block = styled.div`
     margin-top: 3rem;
     
     width: 45%;
-    height: 400px;
+    height: 300px;
 
     background-image: linear-gradient(to top right, var(--black), grey);
 `
@@ -25,7 +25,7 @@ export const Block = styled.div`
 export const H2 = styled.h2`
     margin: 0 3rem;
 
-    font-size: 3.8rem;
+    font-size: 2.5rem;
     font-style: italic;
 
     text-transform: uppercase;

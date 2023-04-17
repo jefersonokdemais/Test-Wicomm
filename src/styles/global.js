@@ -15,7 +15,6 @@ export const GlobalStyle = createGlobalStyle`
   }
   
   input{
-
     font-family: 'Barlow', sans-serif;
     
     color: var(--grey1);
@@ -23,12 +22,6 @@ export const GlobalStyle = createGlobalStyle`
     
     border: solid var(--dark3) 1px;
     border-radius: 5px;
-    
-    height: 60px;
-    width: 350px;
-
-    font-size: 1.2rem;
-    padding: 1.5rem;
   }
 
   h1, h2, h3, h4, h5{
@@ -77,7 +70,7 @@ export const Container = styled.div`
   gap: ${props=> props.gap ? props.gap : "0"};
 
   width: 100%;
-  max-width: ${props => props.width ? props.width : "1780px"};
+  max-width: ${props => props.width ? props.width : "1200px"};
 
   margin: 0 auto;
   padding: .8rem;

@@ -1,16 +1,15 @@
 import styled from "styled-components"
 
 export const View = styled.div`
-    margin-top: 3rem; 
+    margin-top: 1rem; 
     width: 100%;
 
-    margin: 0 0 70px 0;
+    margin: 0 0 50px 0;
 
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 2rem;
 `
 
 export const Container = styled.div`
@@ -22,8 +21,6 @@ export const Container = styled.div`
     justify-content: center;
     flex-direction: column;
 
-    gap: 2rem;
-
     span{
         font-family: 'Barlow';
         font-size: 1.3rem;
@@ -34,7 +31,7 @@ export const Container = styled.div`
         filter: opacity(10%);
 
         position: relative;
-        top: 130px;
+        top: 65px;
     }
 `
 

@@ -6,18 +6,18 @@ export const CardContent = styled.div`
     justify-content: space-around;
     align-items: center;
 
-    width: 430px;
-    height: 530px;
+    width: 250px;
+    height: 430px;
     
     background-color: var(--white);
 
     border: solid var(--background) 2px;
     border-radius: 7px;
 
-    margin-bottom: 10rem;
+    margin-bottom: 5rem;
 
     #img{
-        height: 45%;
+        height: 35%;
         margin-top: 2rem;
     }
 `
@@ -28,25 +28,25 @@ export const DescriptionCard = styled.div`
     h3{
         color: var(--orange1);
         font-family: 'Barlow';
-        font-size: 2.2rem;
+        font-size: 2rem;
         font-weight: 700;
     }
 
     h4{
-        max-width: 300px;
+        max-width: 230px;
         margin-bottom: 1rem;
 
         color: var(--black1);
 
         text-transform: uppercase;
 
-        font-size: 1.3rem;
+        font-size: 1.1rem;
         font-family: 'Barlow';
         font-weight: 600;
     }
 
     span{
-        font-size: 1.2rem;
+        font-size: 1rem;
         font-family: 'Barlow';
         font-weight: 400;
         margin-bottom: 2rem;

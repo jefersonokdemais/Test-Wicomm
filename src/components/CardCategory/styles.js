@@ -5,8 +5,6 @@ export const CardContent = styled.div`
     flex-direction: column;
 
     h3{
-        height: 100px;
-
         text-transform: uppercase;
         margin-top: 1.8rem;
     }

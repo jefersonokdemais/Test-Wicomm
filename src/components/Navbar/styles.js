@@ -11,8 +11,7 @@ export const Block = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-    margin-bottom: ${props => props.buttom};
+    gap: .5rem;
 
     a{
         color: var(--orange1);
