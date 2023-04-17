@@ -13,7 +13,7 @@ import "./styles.css"
 export const PreFooter = () =>{ 
     return(
         <View>
-            <Container width="1600px" direction="row">
+            <Container width="1200px" direction="row">
                 <Column1>
                     <img src={logo} alt="Logotipo"/>
                     <span>Nos siga:</span>

@@ -109,7 +109,6 @@ export const ColumnLinks = styled.div`
 export const ColumnMarketingNoticies = styled.div`
     border-left: solid var(--dark3) 2px;
     padding: 2rem 2rem ;
-    margin-left: 2rem;
 
     height: 100%;
     max-width: 400px;
@@ -173,8 +172,6 @@ export const Buttom = styled.h2`
 
     padding: 1rem;
     
-    margin: 0 3rem;
-
     font-size: 1.3rem; 
     font-weight: 700;
     text-transform: uppercase;

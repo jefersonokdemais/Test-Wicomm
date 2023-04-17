@@ -5,8 +5,8 @@ export const View = styled.div`
     height: 700px;
 
     img{
-        width: 430px;
-        height: 460px;
+        width: 32%;
+        height: 40%;
 
         margin: 1.5rem 0;
     }

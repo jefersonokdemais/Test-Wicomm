@@ -29,7 +29,7 @@ export const Navbar = () => {
                     <li>Atletas</li>
                     <li>Assinatura</li>
                     <li>
-                        <input placeholder="Buscar"/>
+                        <input placeholder="Buscar" id="search"/>
                     </li>
                         <li><BiSearch className="icon-search"/></li>
                     <li><BiUserCircle className="icon"/></li>
