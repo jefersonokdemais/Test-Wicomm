@@ -1,3 +1,4 @@
+import { About } from "../components/About"
 import { Category } from "../components/Category"
 import { Launch } from "../components/Launch"
 import { Members } from "../components/Members"
@@ -20,6 +21,7 @@ const Wicomm = () => {
             <Notices/>
             <Objectives/>
             <Security/>
+            <About/>
         </>
     )
 }
