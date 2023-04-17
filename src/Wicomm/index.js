@@ -1,5 +1,6 @@
 import { About } from "../components/About"
 import { Category } from "../components/Category"
+import { Footer } from "../components/Footer"
 import { Launch } from "../components/Launch"
 import { Members } from "../components/Members"
 import { Navbar } from "../components/Navbar"
@@ -22,6 +23,7 @@ const Wicomm = () => {
             <Objectives/>
             <Security/>
             <About/>
+            <Footer/>
         </>
     )
 }
