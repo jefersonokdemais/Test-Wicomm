@@ -2,21 +2,19 @@ import styled from "styled-components";
 
 export const View = styled.div`
     background-color: var(--black);
-    height: 700px;
+    height: 461px;
 
     img{
-        width: 32%;
-        height: 40%;
+        width: 277px;
+        height: 294px;
 
-        margin: 1.5rem 0;
     }
 `
 
 export const H2 = styled.h2`
-    margin-top: 2.4rem;
-
-    font-size: 3.8rem;
+    font-size: 40px;
     font-style: italic;
+    margin: 40px 0 24px;
 
     text-transform: uppercase;
     text-align: left;
@@ -33,23 +31,21 @@ export const Button = styled.button`
     background-color: var(--orange1);
     color: var(--black);
 
-    width: 140px;
+    width: 139px;
     height: 48px;
     
     position: relative;
-    top: -60px;
+    top: 30px;
 
     border: none;
     border-radius: 4px;
 
-    padding: 14px 24px;
-    margin: 3.1rem 0;
-
     box-sizing: content-box;
 
-    font-size: 1.3rem; 
+    font-size: 16px; 
     font-weight: 700;
     text-transform: uppercase;
+    line-height: 20px;
     
     letter-spacing: 0.08em;
 

@@ -2,14 +2,14 @@ import styled from "styled-components";
 
 export const View = styled.div`
     background-image: linear-gradient(var(--dark3), var(--black));
-    height: 680px;
+    height: 540px;
 `
 
 export const H2 = styled.h2`
-    margin-top: 2.4rem;
-
-    font-size: 3rem;
+    font-size: 32px;
     font-style: italic;
+
+    margin-top: 41px;
 
     text-transform: uppercase;
     text-align: left;

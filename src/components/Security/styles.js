@@ -16,22 +16,22 @@ export const Block = styled.div`
     justify-content: space-between;
     margin-top: 3rem;
     
-    width: 45%;
-    height: 300px;
+    width: 475px;
+    height: 280px;
 
     background-image: linear-gradient(to top right, var(--black), grey);
 `
 
 export const H2 = styled.h2`
-    margin: 0 3rem;
+    margin: 0 40px;
 
-    font-size: 2.5rem;
+    font-size: 40px;
     font-style: italic;
 
     text-transform: uppercase;
     text-align: left;
 
-    max-width: 1000px;
+    max-width: 300px;
     color: var(--white);
 
     span{
@@ -39,21 +39,18 @@ export const H2 = styled.h2`
     }
 `
 
-export const Buttom = styled.h2`
+export const Buttom = styled.button`
     background-color: var(--orange1);
     color: var(--black);
 
-    width: 160px;
-    height: 58px;
-
+    width: 138px;
+    height: 40px;
+    
     border: none;
     border-radius: 4px;
+    margin-left: 40px;
 
-    padding: 1rem;
-    
-    margin: 0 3rem;
-
-    font-size: 1.3rem; 
+    font-size: 14px; 
     font-weight: 700;
     text-transform: uppercase;
     
@@ -77,7 +74,7 @@ export const Description = styled.div`
 `
 
 export const DivIcon = styled.div`
-    width: 40%;
+    width: 35%;
     height: 100%;
 
     margin-top: 2rem;

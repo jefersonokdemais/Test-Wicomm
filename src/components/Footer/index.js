@@ -7,8 +7,8 @@ export const Footer = () =>{
         <View>
             <span>Black Skull 2022. Todos os direitos reservados.</span>
             <div className="logos">
-                <img src={img1} alt="logotipo Parceiros"/>
-                <img src={img2} alt="logotipo Parceiros"/>
+                <img src={img1} alt="logotipo Parceiros" className="logo"/>
+                <img src={img2} alt="logotipo Parceiros" className="logo"/>
             </div>
         </View>
     )

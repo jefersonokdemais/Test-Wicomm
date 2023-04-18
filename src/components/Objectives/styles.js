@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 export const View = styled.div`
     width: 100%;
-    margin-top: 5rem;
+    margin-top: 64px;
 
     gap: 2rem;
     
@@ -13,7 +13,7 @@ export const View = styled.div`
 `
 
 export const H2 = styled.h2`
-    font-size: 3rem;
+    font-size: 32px;
     font-style: italic;
 
     text-transform: uppercase;

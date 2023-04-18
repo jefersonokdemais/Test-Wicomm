@@ -1,24 +1,21 @@
 import styled from "styled-components";
 
 export const Slide = styled.div`
-    height: 85vh;
+    height: 548px;
     background-image: url(${props => props.img});
-    background-size: 100vw;
-    background-repeat: no-repeat;
-    object-fit: cover;
-    /* background-size: 100% 42vw; */
+    background-size: cover;
 `
 
 export const H1 = styled.h1`
-    margin-top: 7rem;
+    margin-top: 130px;
 
-    font-size: 5.3rem;
+    font-size: 56px;
     font-style: italic;
 
     text-transform: uppercase;
     text-align: left;
     
-    max-width: 1000px;
+    max-width: 600px;
     color: var(--white);
 
     span{
@@ -27,13 +24,13 @@ export const H1 = styled.h1`
 `
 
 export const P = styled.p`
-    font-size: 1.8rem;
+    font-size: 16px;
     font-family: 'Barlow';
-    font-weight: 200;
+    font-weight: 400;
 
     margin-top: 1.2rem;
 
-    max-width: 620px;
+    max-width: 400px;
 
     text-align: left;
 
@@ -50,12 +47,11 @@ export const Button = styled.button`
     border: none;
     border-radius: 4px;
 
-    padding: 14px 24px;
-    margin: 3.1rem 0;
+    margin: 32px 0;
 
     box-sizing: content-box;
 
-    font-size: 1.3rem; 
+    font-size: 16px; 
     font-weight: 700;
     text-transform: uppercase;
     

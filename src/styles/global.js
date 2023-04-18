@@ -73,9 +73,5 @@ export const Container = styled.div`
   max-width: ${props => props.width ? props.width : "1200px"};
 
   margin: 0 auto;
-  padding: .8rem;
 
-  img{
-      height: 80px;
-  }
 `

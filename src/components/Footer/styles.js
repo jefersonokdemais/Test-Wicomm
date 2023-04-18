@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const View = styled.div`
     width: 100%;
-    height: 65px;
+    height: 88px;
 
     display: flex;
     align-items: center;
@@ -14,7 +14,7 @@ export const View = styled.div`
 
     span{
         font-family: "Barlow";
-        font-size: 1rem;
+        font-size: 16px;
 
         color: var(--white);
     }
@@ -22,5 +22,9 @@ export const View = styled.div`
     .logos{
         display: flex;
         gap: 2rem;
+    }
+    .logo{
+        object-fit: contain;
+        width: 96px;
     }
 `

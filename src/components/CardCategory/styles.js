@@ -5,8 +5,9 @@ export const CardContent = styled.div`
     flex-direction: column;
 
     h3{
+        font-size: 12px;
         text-transform: uppercase;
-        margin-top: 1.8rem;
+        margin-top: 1rem;
     }
 
     :hover{

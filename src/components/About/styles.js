@@ -4,8 +4,6 @@ export const View = styled.div`
     margin-top: 1rem; 
     width: 100%;
 
-    margin: 0 0 50px 0;
-
     display: flex;
     align-items: center;
     justify-content: center;
@@ -14,7 +12,7 @@ export const View = styled.div`
 
 export const Container = styled.div`
     width: 100%;
-    max-width: 1000px;
+    max-width: 800px;
 
     display: flex;
     align-items: center;
@@ -23,11 +21,12 @@ export const Container = styled.div`
 
     span{
         font-family: 'Barlow';
-        font-size: 1.3rem;
+        font-size: 16px;
+        margin: 24px 0 64px;
     }
 
     img{
-        width: 250px;
+        width: 160px;
         filter: opacity(10%);
 
         position: relative;
@@ -36,14 +35,11 @@ export const Container = styled.div`
 `
 
 export const H2 = styled.h2`
-    margin: 0 3rem;
-
-    font-size: 3rem;
+    font-size: 32px;
     font-style: italic;
 
     text-transform: uppercase;
     text-align: left;
 
-    max-width: 1000px;
     color: var(--black);
 `

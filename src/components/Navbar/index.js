@@ -12,7 +12,7 @@ export const Navbar = () => {
     return (
         <Nav>
             <Container>
-                <Block>
+                <Block height="48px">
                     <a>Fale conosco</a>
                     <div className="text"> 
                         <TbTruck className="icon"/> 
@@ -20,7 +20,7 @@ export const Navbar = () => {
                     </div>
                     <a>Blog.Blackskull</a>
                 </Block>
-                <Block>
+                <Block height="72px">
                     <img src={logo} alt="logo" id="logo"/>
                     <li>Categorias</li>
                     <li>Vestuário</li>
@@ -31,7 +31,7 @@ export const Navbar = () => {
                     <li>
                         <input placeholder="Buscar" id="search"/>
                     </li>
-                        <li><BiSearch className="icon-search"/></li>
+                    <li><BiSearch className="icon-search"/></li>
                     <li><BiUserCircle className="icon"/></li>
                     <li><AiOutlineStar className="icon"/></li>
                     <li>

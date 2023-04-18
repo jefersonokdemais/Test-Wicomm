@@ -13,11 +13,14 @@ export const Block = styled.div`
     align-items: center;
     gap: .5rem;
 
+    height: ${props=> props.height ? props.height : "auto"};
+
     a{
         color: var(--orange1);
         text-transform: uppercase;
         cursor: pointer;
         font-weight: bold;
+        font-size: 12px;
     }
 
     li{

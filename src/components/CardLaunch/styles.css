@@ -1,12 +1,12 @@
 .react-icons{
     position: relative;
-    top: -12rem;
-    right: -6rem;
+    top: -200px;
+    right: -110px;
 
     color: var(--grey1);
     cursor: pointer;
-    width: 2rem;
-    height: 2rem;
+    width: 19px;
+    height: 19px;
 }
 
 .react-icons:hover {

@@ -38,14 +38,16 @@ export const Column1 = styled.div`
 
     img{
         width: 250px;
+        object-fit: scale-down;
         position: relative;
-        top: -20px;
+        top: -10px;
         margin-bottom: -20px;
     }
 
     span{
         font-family: "Barlow";
-        font-size: 1rem;
+        font-size: 14px;
+        font-weight: 400;
 
         color: var(--white);
     }
@@ -53,6 +55,7 @@ export const Column1 = styled.div`
     .rede-sociais{
         width: 80%;
         display: flex;
+        gap: 10px;
         justify-content: space-between;
     }
     .rede-sociais:hover{
@@ -83,12 +86,13 @@ export const ColumnLinks = styled.div`
 
     h3{
         text-transform: uppercase;
-        font-size: 1rem;
+        font-size: 16px;
         color: var(--white);
     }
     .links{
         display: flex;
         flex-direction: column;
+        font-size: 14px;
 
         gap: 1rem;
     }
@@ -127,12 +131,14 @@ export const ColumnMarketingNoticies = styled.div`
 
         span{
             color: var(--orange1);
+            font-size: 2rem;
         }
     }
 
     span{
         font-family: "Barlow";
         color: var(--grey1);
+        font-size: 14px;
     }
 `
 
@@ -144,35 +150,37 @@ export const PaymentsIcons = styled.div`
 
     gap: 3rem;
     margin: 2rem 2.2rem;
-
-    
 `
 
 export const BoxIcons = styled.div`
     img{
+        max-width: 202px;
         position: relative;
         left: 20px;
     }
+
     h5{
         font-size: 1rem;
         text-transform: uppercase;
         color: var(--white);
     }
+
+    #img2{
+        width: 95px;
+    }
 `
 
-export const Buttom = styled.h2`
+export const Buttom = styled.button`
     background-color: var(--orange1);
     color: var(--black);
 
-    width: 160px;
-    height: 58px;
+    width: 138px;
+    height: 40px;
 
     border: none;
     border-radius: 4px;
 
-    padding: 1rem;
-    
-    font-size: 1.3rem; 
+    font-size: 14px; 
     font-weight: 700;
     text-transform: uppercase;
     

@@ -6,8 +6,8 @@ export const CardContent = styled.div`
 
     text-align: left;
 
-    width: 380px;
-    height: max-content;
+    width: 376px;
+    height: 380px;
     
     background-color: transparent;
 
@@ -18,9 +18,7 @@ export const CardContent = styled.div`
     .img{
         object-fit: cover;
         width: 100%;
-        height: 220px;
-
-        margin: 0 0 2.2rem;
+        height: 200px;
     }
 `
 
@@ -30,19 +28,19 @@ export const DescriptionCard = styled.div`
 
     h4{
         max-width: 600px;
-        margin: 1.6rem 0;
+        margin: 16px 0 24px;
 
         color: var(--white);
 
         text-transform: uppercase;
 
-        font-size: 1.2rem;
+        font-size: 18px;
         font-family: 'Barlow';
         font-weight: 600;
     }
 
     span{
-        font-size: 1rem;
+        font-size: 14px;
         font-family: 'Barlow';
         font-weight: 400;
         color: var(--grey2);
@@ -53,18 +51,15 @@ export const Button = styled.button`
     background-color: var(--orange1);
     color: var(--black);
 
-    width: 120px;
-    height: 30px;
+    width: 138px;
+    height: 40px;
     
     border: none;
     border-radius: 4px;
 
-    padding: 10px 20px;
-    margin-bottom: 2rem;
-
     box-sizing: content-box;
 
-    font-size: 1.1rem; 
+    font-size: 14px; 
     font-weight: 700;
     text-transform: uppercase;
     

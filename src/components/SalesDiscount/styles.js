@@ -21,7 +21,7 @@ export const Carrocel = styled.div`
 `
 
 export const H2 = styled.h2`
-    font-size: 3rem;
+    font-size: 32px;
     font-style: italic;
 
     text-transform: uppercase;

@@ -3,12 +3,13 @@ li {
     color: var(--grey1);
     list-style: none;
     font-weight: 700;
-    font-size: .8rem;
+    font-size: 14px;
 }
 
 .text{
     color: var(--grey2);
     font-family: 'Barlow';
+    font-size: 10px;
     text-transform: uppercase;
     display: flex;
     align-items: center;
@@ -17,19 +18,19 @@ li {
 
 .text .icon{
     color: var(--orange1);
-    margin: 0 1rem;
-    width: 30px;
+    margin: 0 .2rem;
+    width: 20px;
     cursor: default;
 }
 
 #logo{
-    height: 4vw;
-    margin-left: -20px;
+    height: 32px;
+    width: 166px;
 }
 
 .icon{
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     margin: 0;
     padding: 0;
     cursor: pointer;    
@@ -43,7 +44,7 @@ li {
     height: 20px;
 
     position: relative;
-    left: -20px;
+    left: -30px;
     top: 2px;
 }
 
@@ -52,9 +53,9 @@ li {
     left: 20px;
     width: 20px;
         
-    height: 15px;
-    width: 210px;
+    height: 40px;
+    width: 216px;
 
-    font-size: 1rem;
+    font-size: 12px;
     padding: 1rem .4rem;
 }

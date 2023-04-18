@@ -65,7 +65,7 @@ export const PreFooter = () =>{
                         </BoxIcons>
                         <BoxIcons>
                             <h5>Segurança</h5>
-                            <img src={icon2} alt="Logotipos Bandeiras de Cartões"/>
+                            <img src={icon2} alt="Logotipos Bandeiras de Cartões" id="img2"/>
                         </BoxIcons>
                     </PaymentsIcons>
                 </InsideView>
