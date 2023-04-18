@@ -61,3 +61,67 @@ export const Button = styled.button`
         background-color: var(--orange2);
     }
 `
+
+export const NavToHome = styled.a`
+    width: 56px;
+    height: 56px;
+
+    border-radius: 4px;
+
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: var(--grey1);
+    color: var(--black);
+
+    position: fixed;
+    bottom: 50px;
+    right: 6px;
+
+    :hover{
+        cursor: pointer;
+        background-color: var(--grey2);
+    }
+`
+
+export const NavToContact = styled.a`
+    width: 134px;
+    height: 40px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 6px;
+
+    border-radius: 6px 6px 0 6px;
+
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+
+    background-color: var(--orange1);
+    color: var(--black);
+
+    position: fixed;
+    bottom: 3px;
+    right: 6px;
+
+    :hover{
+        cursor: pointer;
+        background-color: var(--orange2);
+        border: solid var(--dark2) 1px;
+    }
+`

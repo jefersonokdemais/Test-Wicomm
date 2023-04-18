@@ -11,7 +11,7 @@ import { Container } from "../../styles/global"
 export const Navbar = () => {
     return (
         <Nav>
-            <Container>
+            <Container id="home">
                 <Block height="48px">
                     <a>Fale conosco</a>
                     <div className="text"> 

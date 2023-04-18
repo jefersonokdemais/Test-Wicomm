@@ -72,7 +72,7 @@ export const PreFooter = () =>{
                 <ColumnMarketingNoticies>
                     <h3>Fique por <span>dentro</span></h3>
                     <span>Inscreva-se e seja o primeiro a saber sobre muitas as novidades, promoções e muito mais!</span>
-                    <input placeholder="Digite seu nome" className="pre-input"/>
+                    <input placeholder="Digite seu nome" className="pre-input" id="contact"/>
                     <input placeholder="Digite seu email" className="pre-input"/>
                     <Buttom>Enviar</Buttom>
                 </ColumnMarketingNoticies>
